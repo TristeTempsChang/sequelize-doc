@@ -34,3 +34,12 @@ Vérifier que la table à été créée :
 Use mydatabase;
 Show tables;
 ```
+
+## Fonctionnalités
+
+Lancer la commande:
+    
+    ```bash
+node CreateUser.js
+```
+
