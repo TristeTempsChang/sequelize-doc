@@ -1,5 +1,5 @@
-const sequelize = require('./index');  // Assurez-vous d'avoir bien configuré votre connexion
-const User = require('./models/User');  // Importez le modèle User
+const sequelize = require('./index.js');  // Assurez-vous d'avoir bien configuré votre connexion
+const User = require('./models/user.js');  // Importez le modèle User
 
 async function syncDatabase() {
     try {
