@@ -53,3 +53,5 @@ const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Serveur Express lancé sur le port ${PORT}`);
 });
+
+module.exports = sequelize;
